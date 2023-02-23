@@ -6,7 +6,9 @@ import useNavigate from '../hooks/useNavigate'
 import pages from '../datas/pages.json'
 import Controls from './Controls'
 
-const Wrapper = styled.div``
+const Wrapper = styled.div`
+  height: 100%;
+`
 
 export default function Pages({ fakeLandscape }) {
   const [showCaption, setShowCaption] = useState(false)

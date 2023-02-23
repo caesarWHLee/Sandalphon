@@ -22,7 +22,10 @@ export const GlobalStyles = createGlobalStyle`
       : ``}
 `
 const Wrapper = styled.div`
-  height: 100vh;
+  // height: 100vh;
+  position: fixed;
+  width: 100%;
+  height: 100%;
   scroll-snap-type: y mandatory;
   overflow: auto;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
